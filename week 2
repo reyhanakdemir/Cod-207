@@ -1,0 +1,47 @@
+size(640,480);
+
+int x1 = 0;
+int y1 = 0;
+int w1 = 100;
+int h1 = 100;
+
+
+int x2 = 440;
+int y2 = 0;
+int w2 = 200;
+int h2 = 100;
+
+
+int x3 = 0;
+int y3 = 435;
+int w3 = 240;
+int h3 = 45;
+
+
+int x4 = 570;
+int y4 = 420;
+int w4 = 70;
+int h4 = 70;
+
+
+int x5 = 35;
+int y5 = 35;
+int w5 = 70;
+int h5 = 70;
+
+
+//println("Hello World");
+//println("Hello World 2");
+
+
+
+println("w: " + width);
+println("h: " + height);
+
+
+
+rect(x1,y1,w1,h1);
+rect(x2,y2,w2,h2);
+rect(x3,y3,w3,h3);
+rect(x4,y4,w4,h4);
+rect(width*0.5-35,height*0.5-35,70,70);
