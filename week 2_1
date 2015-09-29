@@ -1,0 +1,48 @@
+size(400,200);
+
+//Blue color
+fill(92,172,196);
+stroke(255,82,84);
+noStroke();
+rect(20,20,100,50);
+
+//Red color
+fill(255,0,0);
+//Left eye
+ellipse(38,42,30,30);
+
+//R-G-B is set to 255 for white color
+fill(255,255,255);
+//left eye inside ellipse
+ellipse(38,36,10,10);
+
+
+//Set color to red again
+fill(255,0,0);
+//right eye
+ellipse(101,42,30,30);
+
+
+//R-G-B is set to 255 for white color
+fill(255,255,255);
+//left eye inside ellipse
+ellipse(96,36,10,10);
+
+//red color body
+fill(255,0,0);
+rect(20,73,100,100);
+
+
+//blue color feet
+fill(92,172,196);
+//left feet
+rect(32,175,25,25);
+
+
+//blue color feet
+fill(92,172,196);
+//right feet
+rect(84,175,25,25);
+
+
+
