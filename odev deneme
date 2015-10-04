@@ -1,0 +1,31 @@
+size(612,600);
+
+stroke(0,0,0);
+strokeWeight(0);
+
+//red rect
+fill(231,6,3);
+rect(0,0,276,238);
+
+//right first white rect
+fill(232,237,231);
+rect(288,0,326,238);
+
+//left 1st white rect
+fill(232,237,231);
+rect(0,249,276,133);
+
+//right 2nd white rect
+fill(232,237,231);
+rect(288,249,328,133);
+
+//yellow rect
+stroke(246,206,0);
+strokeWeight(0);
+fill(246,206,0);
+rect(0,395,57,204,0);
+
+//left 2nd white rect
+fill(232,237,231);
+rect(65,395,210,276);
+
